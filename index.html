@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joeross Palabrica - Full-Time Student & UI/UX Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#home" class="logo">Portfolio</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div id="hero" class="hero-content">
+            <h1 class="hero-title">Joeross Palabrica</h1>
+            <p class="hero-subtitle">Full-Time Student & UI/UX Designer</p>
+            <p class="hero-description">
+                Crafting digital experiences with modern technologies and clean, minimalist design. 
+                Passionate about creating solutions that make a difference.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    Contact Me
+                </a>
+                <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2 class="section-title">Passionate Student & Designer</h2>
+        <div class="about-content">
+            <div class="about-image">
+    <img src="aboutme-pic.jpg" alt="John Doe Profile Picture" class="profile-img">
+            </div>
+            <div class="about-text">
+                <h3>About Me</h3>
+                <p>
+                    I’m passionate about design and driven by minimalism. With more than 2 years of using Figma, I focus on crafting elegant, practical, and user-focused digital solutions. I love blending structured code with thoughtful design to deliver products that resonate with and delight users.
+                </p>
+                <p>
+                    I believe in the power of minimalism and attention to detail. Every project is an opportunity 
+                    to push boundaries and create something meaningful that makes a positive impact.
+                </p>
+            </div>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h4>Development</h4>
+                <p>Made a few random, kinda useless projects LOL, just exploring some development and learning.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-palette"></i>
+                <h4>Design</h4>
+                <p>UI/UX design focused on user experience and visual aesthetics</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-rocket"></i>
+                <h4>Performance</h4>
+                <p>Optimized solutions for speed, scalability, and maintainability</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="fade-in">
+        <h2 class="section-title">My Portfolio</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            A selection of projects that showcase my skills in modern web development and design
+        </p>
+        
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p>Designed the WVSU shop, a peer-to-peer community e-commerce platform as our final project in Web Development during my first year</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Stripe</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Demo
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Nest Book</h3>
+                <p>Peer-to-peer book lending application with real-time updates, intuitive browsing functionality, and community-driven sharing features.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Prisma</span>
+                    <span class="tech-tag">Tailwind</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Demo
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Classroom Management App</h3>
+                <p>Helped design a classroom management application as our final term project in Computer Programming II during my first year.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">Weather API</span>
+                    <span class="tech-tag">Chart.js</span>
+                    <span class="tech-tag">CSS Grid</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Demo
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Minimalist portfolio website with smooth animations, dark mode support, and responsive design. Built with modern web technologies.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Responsive</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Demo
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Police Bodycam Hybrid Management System</h3>
+                <p>Helped develop a police body camera system designed to prevent unauthorized deletion, tampering, and ensure secure data storage.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">MongoDB</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Demo
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>To Be Announced</h3>
+                <p>Data visualization dashboard with interactive charts, real-time data updates, and customizable reporting features.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">D3.js</span>
+                    <span class="tech-tag">WebSocket</span>
+                    <span class="tech-tag">Material-UI</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Demo
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            Have a project in mind or want to collaborate? I'd love to hear from you.
+        </p>
+        
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Start a Conversation</h3>
+                <p>
+                    I'm always interested in new opportunities and exciting projects. 
+                    Whether you have a question, a project idea, or just want to say hello, 
+                    feel free to reach out.
+                </p>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong><br>
+                        joeross.palabrica@wvsu.edu.ph
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Phone</strong><br>
+                        09120982723
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Location</strong><br>
+                        San Enrique, Iloilo, Philippines
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Joeross Palabrica</h3>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2025 Seraphim Joe. All rights reserved. • Made with <i class="fas fa-heart" style="color: var(--accent);"></i> and lots of patience with the help of AI</p>
+                <a href="#home" style="color: var(--text-secondary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 1rem;">
+                    Back to Top <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
