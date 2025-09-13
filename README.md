@@ -1,3 +1,12 @@
+About the Website
+
+This website serves as my digital portfolio to introduce myself, showcase my projects, and provide ways to connect.
+Some buttons (like **Facebook**, **LinkedIn** , **other Projects** etc.) currently do not have active links in this repository.  
+Since this project is public, I’ve kept certain personal/social links hidden for now.  
+
+I plan to **make all links active once my portfolio projects are fully completed and deployed**.  
+This ensures everything is polished and ready before making my profiles public.
+
 # Portfolio Website
 
 A modern, minimalist portfolio website built to showcase my projects, skills, and design philosophy.  
@@ -25,9 +34,31 @@ It highlights my journey as a **full-time student and aspiring UI/UX designer** 
 
 ---
 
-## 📂 Project Structure
-portfolio-website/
-│── index.html # Main website file
-│── style.css # Styles and responsive design
-│── script.js # Interactivity and animations
-│── aboutme-pic/ # Picture of me
+
+## 🚀 Instructions
+
+Follow these steps to run the website locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/joerosspalabrica-srphm/-portfolio-palabrica.git
+2.Navigate into the project folder:
+    cd -portfolio-palabrica
+3. Open the index.html file in your browser.
+
+    a. On most systems, you can just double-click it.
+    b. Or right-click and choose “Open With → Browser”.
+
+⚡ Since this is a front-end only project, no server setup or database is required.
+
+---
+
+## 📬 Contact
+
+Email: joeross.palabrica@wvsu.edu.ph
+
+GitHub: joerosspalabrica-srphm
+
+Location: Iloilo, Philippines
+
+---
